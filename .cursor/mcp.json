@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "trendradar": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "/workspace",
+        "run",
+        "python",
+        "-m",
+        "mcp_server.server"
+      ],
+      "description": "TrendRadar 新闻热点聚合分析"
+    }
+  }
+}
